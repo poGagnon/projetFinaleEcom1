@@ -1,0 +1,280 @@
+.bodyHome {
+    background-color: bisque;
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.bodyHome>p {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+[id^=image] {
+    border: 20px solid red;
+    width: 180px;
+    height: 210px;
+    margin-top: 3rem;
+
+
+}
+
+.card>img {
+    height: 70vh;
+}
+
+
+[class^=FRM] {
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: beige;
+    width: 50%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
+    top: 50px;
+}
+
+input {
+    width: 400px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    position: absolute;
+    height: 10rem;
+    width: 25%;
+}
+
+#detImg {
+    margin-top: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50rem;
+    background-color: rgba(0, 0, 0, 0.068);
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.detaille_img {
+    height: 80vh;
+    width: 50vh;
+
+}
+
+.detaille_description {}
+
+.cardpanier {
+    position: relative;
+    width: 75%;
+    border: .2rem solid black;
+    border-radius: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: .2rem;
+
+}
+
+.cardpanierimg {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 90%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.num {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #31d2f2;
+    border-radius: 5rem;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.del {
+    position: absolute;
+    left: 75%;
+}
+
+.card-body>button {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body>a {
+    position: absolute;
+    right: 0%;
+    height: 3rem;
+    width: 5rem;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-body {
+    position: relative;
+    height: 12rem;
+    text-align: center;
+
+}
+
+body>form>p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#cart {
+    height: 2rem;
+    width: 3rem;
+}
+
+.price {
+    position: relative;
+    margin-left: 4.2rem;
+    font-weight: bold;
+}
+
+
+a.btn {
+    margin-right: 5vh;
+}
+
+
+
+.total {
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    left: 85%;
+    top: 78%;
+    transform: translate(0, -50%);
+
+}
+
+.search_container {
+    position: absolute;
+    display: flex;
+    gap: .2rem;
+    height: 2.4rem;
+    width: 4rem;
+
+}
+
+#conection {
+    position: relative;
+    display: flex;
+    gap: .2rem;
+    margin-right: .2rem;
+
+}
+
+#conection>button {
+    color: white;
+}
+
+#conection>button a {
+    color: white;
+}
+
+#CoNameShow {
+    position: relative;
+}
+
+.totalprice {
+    position: fixed;
+    background-color: #000000b3;
+    height: 20rem;
+    width: 35rem;
+    left: 100%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+    z-index: 10;
+    border: solid black .2rem;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.totalprice:hover {
+    position: absolute;
+    top: 95%;
+    height: 200%;
+    transform: translate(-100%, -50%);
+}
+
+.totalprice>h1 {
+    writing-mode: vertical-rl;
+    color: white;
+    position: absolute;
+    left: 0%;
+    font-size: 1.5rem;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.totalpriceGrid>p {
+    color: white;
+}
+
+.totalpriceGrid {
+    display: grid;
+    margin: 10vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.monbutton {
+    position: relative;
+    top: -45%;
+    height: 1rem;
+    width: 1rem;
+}
